@@ -111,7 +111,7 @@ app.post("/dbl", async (req, res) => {
 
 app.listen(80, () => {
 
-    console.log(`Running Vote System on Port ${port}`);
+    console.log(`Running Vote System on Port 80`);
 
     mongoose.connect(process.env.MONGO_URI).catch((err) => {
         console.log(err)
