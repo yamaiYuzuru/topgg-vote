@@ -2,9 +2,9 @@
   "name": "topgg-vote",
   "version": "1.0.0",
   "description": "Just another vote webhook",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node main.js"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
