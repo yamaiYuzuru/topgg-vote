@@ -109,7 +109,7 @@ app.post("/dbl", (req, res) => {
   });
 });
 
-app.listen(4112, () => {
+app.listen(80, () => {
 
     console.log(`Running Vote System on Port ${port}`);
 
