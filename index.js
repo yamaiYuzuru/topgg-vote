@@ -117,3 +117,5 @@ app.listen(80, () => {
         console.log(err)
     });
 });
+
+module.exports = app;
