@@ -65,7 +65,7 @@ app.post(
   })
 );
 
-app.post("/dbl", (req, res) => {
+app.post("/dbl", async (req, res) => {
   if (req.headers.authorization !== process.env.VOTE_SECRET) return;
   let votedUser = await fetch(
     `https://discord.com/api/v9/users/${req.id}`,
