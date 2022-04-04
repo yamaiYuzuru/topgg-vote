@@ -11,7 +11,7 @@ let voteHook = new Webhook(process.env.VOTE_SECRET);
 let webhookVote = new WebhookClient({token: process.env.WH_TOKEN, id: process.env.WH_ID})
 
 app.get("/", (req, res) => {
-  res.send("Nothing to see here.");
+  res.send("<p style="font-family: sans-serif, arial;">Nothing to see here</p>");
 });
 
 app.get("/topgg", (req, res) => {
